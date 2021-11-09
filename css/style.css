@@ -1,0 +1,48 @@
+.hidden{
+    display: none;
+}
+
+.outer{
+    position: relative;
+
+}
+
+/* https://ddorang-d.tistory.com/89 */
+.outer::before{
+    content: "";
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.inner{
+    position: absolute;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+    height: 1030px;
+    object-fit: cover;
+}
+
+#quote{
+    position: absolute;
+}
+
+#weather{
+    position: absolute;
+}
+
+.clock-container{
+    margin-left: 750px;
+}
+
+#clock{
+    font-size: 100px;
+    
+}
