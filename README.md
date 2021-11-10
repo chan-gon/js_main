@@ -22,5 +22,5 @@ To save time in creating the main page when developing a new web service.
 
 ## 보완 사항
 
-- 방문자 확인(Login) 로그인 세부 기능 구현 | develop a specific login process  
+- 방문자 확인(Login) 세부 기능 구현 | develop a specific login process  
 - 날씨 정보 온도 표기 수정(화씨 -> 섭씨) | change the temperature notation(Fahrenheit -> Celcius)
