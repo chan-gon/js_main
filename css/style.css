@@ -10,7 +10,7 @@
 /* https://ddorang-d.tistory.com/89 */
 .outer::before{
     content: "";
-    opacity: 0.5;
+    opacity: 0.7;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -45,4 +45,38 @@ img{
 #clock{
     font-size: 100px;
     
+}
+
+#login-form{
+    margin-left: 845px;
+}
+
+#todo-form{
+    margin-left: 845px;
+}
+
+#todo-list-form{
+    margin-left: 845px;
+}
+
+#greeting{
+    margin-left: 845px;  
+}
+
+#weather{
+    margin: 30px 0 0 1650px;
+}
+
+#quote{
+    margin: 960px 0 0 40px;
+}
+
+#quote span{
+    display: block;
+    font-weight: bold;
+}
+
+#quote span:last-child{
+    display: block;
+    font-weight: normal;
 }

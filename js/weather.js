@@ -10,7 +10,7 @@ function onGeoOk(position){
     fetch(url).then(response => response.json()).then(data => {
         const weatherContainer = document.querySelector("#weather span:first-child");
         const cityContainer = document.querySelector("#weather span:last-child");
-
+        console.log(data);
         const name = data.name;
         const weather = data.weather[0].main;
         const temp = data.main.temp;
